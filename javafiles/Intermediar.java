@@ -10,7 +10,4 @@ public class Intermediar extends Persoana {
   return null;
   }
 
-  public void Intermediar() {
-  }
-
 }

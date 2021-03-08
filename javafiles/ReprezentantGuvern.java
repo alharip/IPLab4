@@ -2,7 +2,7 @@ public class ReprezentantGuvern extends Persoana {
 
   public Integer idReprez;
 
-  public void oferaMarfa( Spital,  Marfa) {
+  public void oferaMarfa(Spital destinatie, Marfa cantiate) {
   }
 
   public Spital cautaSpitalCuNevoi() {
@@ -11,9 +11,6 @@ public class ReprezentantGuvern extends Persoana {
 
   public Spital cautaSpitalCuSurplus() {
   return null;
-  }
-
-  public void ReprezentantGuvern(Integer idReprez) {
   }
 
 }

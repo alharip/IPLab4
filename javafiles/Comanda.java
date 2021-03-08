@@ -6,17 +6,17 @@ class Comanda {
 
   protected Guvern sursaSpeciala;
 
-  protected Integer idComanda;
+  protected int idComanda;
 
   protected static Integer numarEntitati;
 
   protected Marfa cantitate;
 
-  public Integer getIdComanda() {
-  return null;
+  public int getIdComanda() {
+  return 0;
   }
 
-  public void setIdComanda(Integer id) {
+  public void setIdComanda(int id) {
   }
 
   public Spital getSursa() {
@@ -37,13 +37,10 @@ class Comanda {
   public void setSursa(Spital sursa) {
   }
 
-  public void setSursaSpeciala( Guvern) {
+  public void setSursaSpeciala(Guvern sursa) {
   }
 
-  public void Comanda(Spital sursa, Spital destinatie, Marfa cantitate) {
-  }
-
-  public void Comanda(Guvern sursaSpeciala, Spital destinatie, Marfa cantiate) {
+  public void newOperation() {
   }
 
 }

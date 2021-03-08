@@ -27,7 +27,4 @@ public class Curier extends Persoana {
   public void setNumeFirma(String firma) {
   }
 
-  public void Curier(String numarMasina, String numeFirma, String locatieCurenta) {
-  }
-
 }

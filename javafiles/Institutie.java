@@ -18,7 +18,4 @@ public class Institutie {
   public void setNume(String nume) {
   }
 
-  public void Institutie(String adresa, String nume) {
-  }
-
 }

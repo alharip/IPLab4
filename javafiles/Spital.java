@@ -20,7 +20,4 @@ public class Spital extends Institutie {
   return null;
   }
 
-  public void Spital(Manager manager, String cheieCont) {
-  }
-
 }

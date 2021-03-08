@@ -4,15 +4,13 @@ public class Persoana {
 
   protected String cnp;
 
-  protected Integer salariu;
+  protected int salariu;
 
   protected Gen sex;
 
   protected Data dataNasterii;
 
   protected String numarTelefon;
-
-  public Integer newAttr;
 
   public String getNume() {
   return null;
@@ -28,11 +26,11 @@ public class Persoana {
   public void setCnp(String cnp) {
   }
 
-  public Integer getSalariu() {
-  return null;
+  public int getSalariu() {
+  return 0;
   }
 
-  public void setSalariu(Integer salariu) {
+  public void setSalariu(int salariu) {
   }
 
   public void setSex(Gen sex) {

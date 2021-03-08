@@ -12,7 +12,4 @@ public class Manager extends Persoana {
   public void declaraNevoie() {
   }
 
-  public void Manager() {
-  }
-
 }
